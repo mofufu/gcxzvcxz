@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @childdf.name %>
+</p>
+
+<p>
+  <strong>Parent:</strong>
+  <%= @childdf.parent %>
+</p>
+
+<%= link_to 'Edit', edit_childdf_path(@childdf) %> |
+<%= link_to 'Back', childdfs_path %>
